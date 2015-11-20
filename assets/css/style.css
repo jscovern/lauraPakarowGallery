@@ -1,0 +1,67 @@
+h1 {
+	color:red;
+}
+
+#myTextArea {
+	width: 200px;
+}
+
+#canvas {
+	border: 1px solid black;
+}
+
+.wrapper {
+	text-align: center;
+}
+
+.myTitle {
+	text-align: center;
+}
+
+.unOpened {
+	border: 1px solid black;
+}
+
+.topWrapper {
+	background-image: url("../images/backgroundImage.jpg");
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+    /* opacity: .6; */
+    height: 500px;
+    margin-bottom: 10px;
+}
+
+.myForm {
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+img {
+	z-index: 1;
+	transition: all .2s ease-in-out;
+}
+
+/*img:hover {
+	width: 800px;
+	height: 800px;
+	position:relative;
+	z-index: 2;
+	transform: scale(1.1);
+}
+*/
+
+img.unOpened:hover {
+	cursor: pointer;
+}
+
+img.opened:hover {
+	cursor:pointer;
+}
+
+.hidden {
+	display: none;
+}
