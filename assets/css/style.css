@@ -1,17 +1,17 @@
 h1 {
-	color:red;
+	color: #A9A9A9;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border: 3px solid gray;
 }
 
-#myTextArea {
-	width: 200px;
-}
-
-#canvas {
-	border: 1px solid black;
+body {
+	overflow-x: hidden;
 }
 
 .wrapper {
 	text-align: center;
+	margin-top: 10px;
 }
 
 .myTitle {
@@ -42,7 +42,7 @@ h1 {
 
 img {
 	z-index: 1;
-	transition: all .2s ease-in-out;
+	transition: all 0.3s ease-out;
 }
 
 /*img:hover {
@@ -64,4 +64,43 @@ img.opened:hover {
 
 .hidden {
 	display: none;
+}
+
+.alignToCenter {
+	vertical-align: middle;
+	text-align: center;
+}
+
+/*.transitionBorder {
+	border: 1px solid black;
+	-webkit-transition: width 1s, height 1s, border 1s;
+	transition: width 1s, height 1s, border 1s;
+}*/
+
+form {
+	text-align: center;
+}
+
+button:hover {
+/*	background-color: black; */
+	box-shadow: 3px 3px #A9A9A9;
+}
+
+button {
+	border-radius: 10%;
+	margin-left: 5px;
+	padding: 2px;
+}
+
+.errorMessage{
+		text-align: center;
+		color: red;
+
+}
+
+@media (max-width: 608px) {
+	.myForm {
+		display: inline-block;
+		width: 100%;
+	}
 }
